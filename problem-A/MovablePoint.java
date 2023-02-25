@@ -7,7 +7,8 @@ class MovablePoint implements Movable {
         this.xSpeed = xSpeed;
         this.ySpeed = ySpeed;
     }
-
+    
+    @Override
     public String toString() {
         return String.format("(%d,%d),speed=(%d,%d)", x, y, xSpeed, ySpeed);
     }
