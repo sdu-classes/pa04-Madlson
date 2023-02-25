@@ -7,7 +7,7 @@ public class Rabbit extends Animal implements Pet {
     }
 
     public Rabbit() {
-        this("Koyanshyk");
+        this("Rodger");
     }
 
     @Override
