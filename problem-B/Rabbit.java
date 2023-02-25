@@ -1,4 +1,4 @@
-ublic class Rabbit extends Animal implements Pet {
+public class Rabbit extends Animal implements Pet {
     private String name;
 
     public Rabbit(String name) {
